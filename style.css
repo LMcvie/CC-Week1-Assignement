@@ -1,31 +1,40 @@
-header
+/* header
 {
-    /*background-color: brown;*/
     border: 0.5rem outset skyblue;
     box-shadow: 0 0 0 1rem blue;
     border-radius: 0.2rem;
     outline: 0.5rem solid navy;
-    outline-offset: 0.5rem;
-    /*background-color:silver;*/
+    outline-offset: 0.2rem;
+    background-color :burlywood;
+} */
+
+.section-border
+{
+    border: 0.5rem outset skyblue;
+    box-shadow: 0 0 0 1rem blue;
+    border-radius: 0.2rem;
+    outline: 0.5rem solid navy;
+    outline-offset: 0.2rem;
+    background-color :burlywood;
+    margin:auto;
 }
 
 h1{
     text-decoration: underline;
+    text-align: center;
 }
+
+h2{
+    text-align: center;
+}
+
+
 .menu
 {
     
     list-style-type: none;
     display: flex;
     align-items: center;
-}
-
-.menu-item
-{
-   /* 
-    border-radius: 4px;*/
-   
-    
 }
 
 li
@@ -43,10 +52,49 @@ img:hover
     border: 0.2rem solid red;
 }
 
-img
+
+.image-grid
 {
-    background-color: transparent;
-    background-position: center center;
-    background-size: 100px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    grid-template-rows: 200x 200px;
+    grid-gap: 0px;
+    align-items: center;
+   /* margin-right : 50rem; */
 }
 
+#header-flex
+{
+    display: flex;  
+}
+
+#mainlayout-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    grid-template-rows: 400x 400px;
+    grid-gap: 0px;
+    align-items: center;
+}
+
+#StoryImage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+cite
+{
+    text-align: center;
+}
+
+article
+{
+    margin-top: 15px;
+    border: 0.2rem outset black;
+    outline: 0.25rem solid navy;
+}

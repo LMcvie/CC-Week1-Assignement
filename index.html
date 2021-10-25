@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Week 1 Assignment</title>
 </head>
-<header> 
-    
-    <nav>
+<header class="section-border"> 
+    <!-- Create flex of 2 parts menu system and related section -->
+    <section id="header-flex">
+     <nav>
+         <!-- inside the main flex a second flex for the menu items -->
         <ul class="menu">
             <img src="https://weirdnewsfiles.com/wp-content/uploads/2013/09/logoWeirdNewsflies.png" width="200" height="30" alt="weird news">
             <li class="menu-item">
@@ -19,39 +21,76 @@
                 <a href="#">Global</a>
             </li>
             <li>
-                <a href="#">Entertainment News</a>
+                <a href="#">Entertainment</a>
             </li>
             <li>
                 <a href="#">Tech Tips</a>
             </li>
         </ul>
+     </nav>
+     
+     <h2>People also liked....</h2>
+     
+    <nav>
+        <ul class="image-grid">
+            <!-- create an image grid within the main flex system for the related section -->
+            <li>                    
+                <a href="#"><img src="https://runt-of-the-web.com/wordpress/wp-content/uploads/2017/12/goat-funny-news-headlines.png" width = "200" height = "200"alt="news article about goat stuck on a roof"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://runt-of-the-web.com/wordpress/wp-content/uploads/2015/02/funny-newspaper-headlines-goldfish.jpg" width = "200" height = "200" alt="goldfish deemed a witness in burglary"></a>
+            </li>
+             <li>
+                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkvcfPu-5uNUwfHn_dQHVOhKei6SnVJ9GAzQ&usqp=CAU" width = "200" height = "200" alt="student fakes kidnapping to prevent failing course"></a>
+            </li>
+             <li>
+                <a href="#"><img src="https://www.irelandbeforeyoudie.com/wp-content/uploads/2020/01/irish-headlines-2.png" width = "200" height = "200" alt="weird things happen in Northern Ireland as the country bakes"></a>
+            </li>
+        </ul>
     </nav>
-
-    <aside>
-        <h2>People also liked....</h2>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a href="#"><img src="https://runt-of-the-web.com/wordpress/wp-content/uploads/2017/12/goat-funny-news-headlines.png" width = "200" height = "200"alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="https://runt-of-the-web.com/wordpress/wp-content/uploads/2015/02/funny-newspaper-headlines-goldfish.jpg" width = "200" height = "200" alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkvcfPu-5uNUwfHn_dQHVOhKei6SnVJ9GAzQ&usqp=CAU" width = "200" height = "200" alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="https://www.irelandbeforeyoudie.com/wp-content/uploads/2020/01/irish-headlines-2.png" width = "200" height = "200" alt=""></a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
+    </section>
 </header>
 
-<body>
-    
-</body>
-<footer>
+<body class="section-border">
+    <main id="mainlayout-grid">
+        <!-- creating a grid for main article and a aside section of content -->
+        <article>
+            <h1>Famous Pop Star believes marriage is over with tennis number 1</h2>
+            <a href="#"><img id="StoryImage" src="https://image.freepik.com/free-photo/funny-emotions-professional-tennis-player-isolated-white-wall-excitement-game_155003-24634.jpg" width = "400" height = "400"alt="Tennis player unaware of ball "></a>
+            <p>A former Pop Star and lead singer of Canadian band looked shocked this morning when leaving their mansion in the middle of nowhere. When asked what was wrong, the music sensation replied with: </p>
+            <cite>Never fall in love with a tennis player. Love means nothing to them</cite>
+            <p style="text-align:center"> Everyone is still confused what they actually meant and when asked again how their date went they sighed and exclaimed
+            </p>
+            <cite>I feel sorry for the calendar as its days are numbered</cite>
+        </article>
 
+        <aside style = "text-align: center">
+            <!-- random advert section like all weird websites -->
+            <h2>Get Into Tech!</h2>
+            <iframe width="640" height="480"src="https://youtube.com/embed/pOejf28GEI8"></iframe>
+            <cite>This is a completely un sponsored advert as no one would pay us</cite>
+            <p>considering getting into tech maybe try this?</p>
+        </aside>
+    </main>
+</body>
+<footer class="section-border">
+    <nav>
+        <!-- inside the main flex a second flex for the menu items -->
+        <h2>Additional info</h2>
+       <ul class="menu">
+           <li class="menu-item">
+               <a href="#">Contact Us</a>
+           </li>
+           <li>
+               <a href="#">About Us</a>
+           </li>
+           <li>
+               <a href="#">FAQ</a>
+           </li>
+           <li>
+               <a href="#"></a>
+           </li>
+       </ul>
+    </nav>
 </footer>
 </html>
