@@ -1,0 +1,52 @@
+header
+{
+    /*background-color: brown;*/
+    border: 0.5rem outset skyblue;
+    box-shadow: 0 0 0 1rem blue;
+    border-radius: 0.2rem;
+    outline: 0.5rem solid navy;
+    outline-offset: 0.5rem;
+    /*background-color:silver;*/
+}
+
+h1{
+    text-decoration: underline;
+}
+.menu
+{
+    
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item
+{
+   /* 
+    border-radius: 4px;*/
+   
+    
+}
+
+li
+{
+   /* box-shadow: 5px 5px 5px navy; */
+    border: 0.5rem outset skyblue;
+}
+
+a:hover{
+    color: red;
+}
+
+img:hover
+{
+    border: 0.2rem solid red;
+}
+
+img
+{
+    background-color: transparent;
+    background-position: center center;
+    background-size: 100px 80px;
+}
+
